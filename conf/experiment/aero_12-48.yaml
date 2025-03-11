@@ -1,5 +1,5 @@
 # @package experiment
-name: aero-nfft=${experiment.nfft}-hl=${experiment.hop_length}
+name: aero_12-48_${experiment.nfft}_${experiment.hop_length}
 
 # Dataset related
 lr_sr: 11025 # low resolution sample rate, added to support BWE. Should be included in training cfg
